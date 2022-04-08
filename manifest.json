@@ -1,0 +1,25 @@
+{
+  "name": "Fisrt Aid Proxer",
+  "description": "Free Proxy: Help you can access websites like Medium.com or others from blocked countries.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs", "activeTab", "contextMenus"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/proxer16.png",
+      "32": "/images/proxer32.png",
+      "48": "/images/proxer48.png",
+      "128": "/images/proxer128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/proxer16.png",
+    "32": "/images/proxer32.png",
+    "48": "/images/proxer48.png",
+    "128": "/images/proxer128.png"
+  }
+}
